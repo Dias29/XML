@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<animals>
+  <animal>
+    <kind kind ="dog"/>
+    <breed breed ="buldog"/>
+    <weight weight ="10"/>
+    <price price =" 10000"/>
+  </animal>
+
+  <animal>
+    <kind kind ="cat"/>
+    <breed breed ="sphinks"/>
+    <weight weight ="7"/>
+    <price price ="20000"/>
+  </animal>
+
+  <animal>
+    <kind kind ="horse"/>
+    <breed breed ="mustang"/>
+    <weight weight ="400"/>
+    <price price ="2000000"/>
+  </animal>
+  
+  
+</animals>

@@ -1,0 +1,6 @@
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\XmlPracktTask\XmlPracktTask\bin\Debug\Animals.xml
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\XmlPracktTask\XmlPracktTask\bin\Debug\XmlPracktTask.exe.config
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\XmlPracktTask\XmlPracktTask\bin\Debug\XmlPracktTask.exe
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\XmlPracktTask\XmlPracktTask\bin\Debug\XmlPracktTask.pdb
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\XmlPracktTask\XmlPracktTask\obj\Debug\XmlPracktTask.exe
+c:\users\уринбасаровд\documents\visual studio 2017\Projects\XmlPracktTask\XmlPracktTask\obj\Debug\XmlPracktTask.pdb
