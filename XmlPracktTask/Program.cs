@@ -17,24 +17,24 @@ namespace XmlPracktTask
             XmlElement root = document.DocumentElement;
             XmlNodeList subchild = root.ChildNodes;
 
-            if (root.ChildNodes.HasAttribute(""))
-            {
+            //if (root.ChildNodes.HasAttribute(""))
+            //{
                 string kind = root.GetAttribute("kind");
                 Console.WriteLine(kind);
+           // }
+
+            foreach (XmlElement element in root)
+            {
+                Animals animal = new Animals();
+
+
+
+                Console.WriteLine(animal.Kind = element.GetAttribute("kind"));
+                Console.WriteLine(animal.Breed = element.ChildNodes[1].InnerText);
+                Console.WriteLine(animal.Weight = int.Parse(element.ChildNodes[2].Attributes["weight"].InnerText));
+                Console.WriteLine(animal.Price = int.Parse(element.ChildNodes[3].Attributes["price"].InnerText));
+
             }
-
-            //foreach (XmlElement element in root)
-            //{
-            //    Animals animal = new Animals();
-
-                
-
-            //    Console.WriteLine(animal.Kind = element.GetAttribute("kind"));
-            //    Console.WriteLine(animal.Breed = element.ChildNodes[1].InnerText);
-            //    Console.WriteLine(animal.Weight = int.Parse(element.ChildNodes[2].Attributes["weight"].InnerText));
-            //    Console.WriteLine(animal.Price = int.Parse(element.ChildNodes[3].Attributes["price"].InnerText));
-
-            //}
 
             Console.ReadLine();
         }
